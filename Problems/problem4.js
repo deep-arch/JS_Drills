@@ -1,8 +1,6 @@
-const myModule = require('../Inventory/inventory');
-let val= myModule.inventory
 let years=[];
 module.exports = {
-problem4: function ()
+problem4: function (val)
 {
     for(let i=0; i< val.length; i++)
     {

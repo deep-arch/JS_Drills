@@ -1,3 +1,4 @@
-const myModule = require('../problem4');
-let v = myModule.problem4;
-console.log(v())
+const { inventory } = require('../../Inventory/inventory');
+const { problem4 } = require('../problem4');
+let result = problem4(inventory)
+console.log(result)
