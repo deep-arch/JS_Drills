@@ -1,7 +1,7 @@
 const myModule = require('../Inventory/inventory');
 let val= myModule.inventory
-
-function p1(val)
+module.exports = {
+problem1: function ()
 {
     for (var i= 0; i< val.length; i++)
     {
