@@ -7,6 +7,6 @@ problem4: function (){
     {
         years.push(val[i].car_year);
     }
-    return years + '';
+    return years;
 }
 }
