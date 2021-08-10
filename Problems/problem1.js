@@ -1,7 +1,5 @@
-const myModule = require('../Inventory/inventory');
-let val= myModule.inventory
 module.exports = {
-problem1: function ()
+problem1: function (val)
 {
     for (var i= 0; i< val.length; i++)
     {
@@ -11,6 +9,4 @@ problem1: function ()
         } 
     }
 }
-module.exports = {
-    problem1: p1(val)
 }
