@@ -3,7 +3,7 @@
 // "Last car is a *car make goes here* *car model goes here*"
 
 module.exports = {
-problem2: function (val){
+problem2(val){
 let i = val.length - 1;
 return " Last Car is a"+" "+ val[i].car_make+ " "+val[i].car_model;
 }
