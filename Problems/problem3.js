@@ -11,9 +11,9 @@ problem3(val)
     {
       if(val[j].car_model.toLowerCase()>val[j + 1].car_model.toLowerCase())
       {
-        let temp=val[j + 1];
-        val[j + 1]=val[j]; 
-        val[j]=temp;
+        let temp = val[j + 1];
+        val[j + 1] = val[j]; 
+        val[j] = temp;
       }
     }
   return val;
