@@ -4,7 +4,9 @@
 
 module.exports = {
 problem2(val){
-let i = val.length - 1;
-return " Last Car is a"+" "+ val[i].car_make+ " "+val[i].car_model;
-}
+    if(val.length==0)
+        return []
+    let i = val.length - 1;
+    return " Last Car is a"+" "+ val[i].car_make+ " "+val[i].car_model;
+    }
 }
