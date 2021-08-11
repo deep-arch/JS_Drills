@@ -4,8 +4,6 @@
 let make = []
 module.exports = {
 problem6 (val) {
-    if(val.length==0)
-        return [];
     for(let i=0; i< val.length; i++)
     {
         if(val[i].car_make == "BMW" || val[i].car_make == "Audi")
