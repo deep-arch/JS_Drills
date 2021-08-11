@@ -3,7 +3,7 @@
 
 let count=0;
 module.exports = {
-problem5: function (years){
+problem5(years){
     for(let i=0; i < years.length; i++)
 {
     if(years[i] < 2000)
