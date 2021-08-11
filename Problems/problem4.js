@@ -4,8 +4,7 @@
 let years=[];
 module.exports = {
 problem4(val)
-{   if(val.length==0)
-        return [];
+{ 
     for(let i=0; i< val.length; i++)
     {
         years.push(val[i].car_year);
