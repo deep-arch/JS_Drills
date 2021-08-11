@@ -3,7 +3,7 @@
 // "Car 33 is a *car year goes here* *car make goes here* *car model goes here*"
 
 module.exports = {
-problem1: function (val)
+problem1(val)
 {
     for (var i= 0; i< val.length; i++)
     {
