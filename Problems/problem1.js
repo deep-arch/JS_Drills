@@ -5,7 +5,7 @@
 module.exports = {
 problem1(val)
 {   if(val.length==0)
-        return []
+        return [];
     for (var i= 0; i< val.length; i++)
     {
         if (val[i].id == 33)
