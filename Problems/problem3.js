@@ -3,7 +3,8 @@
 
 module.exports = {
 problem3(val)
-{
+{   if(val.length==0)
+        return [];
     for( let i=0; i<val.length; i++)             // using Bubble sort
         for( let j=0; j<val.length-i-1;j++)
              {
